@@ -6,8 +6,10 @@ def get_system_info():
         cmd = ["uname", "-a"]
     elif sys.platform == "darwin":                          # MAC
         cmd = ["system_profiler", "SPSoftwareDataType"]
-    else:                                                   # Windows
+    elif sys.platform == "windows":                         # Windows
         cmd = ["systeminfo"]
+    else:
+        return "Error: Unknown operating system"
 
     result = subprocess.run(cmd, capture_output=True, text=True)
     return result.stdout
