@@ -5,6 +5,7 @@
 """
 
 import sys
+
 def say_it(greeting, target):
     message = f'{greeting} {target}!'
     print(message)
