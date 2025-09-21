@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: hello-world
+Version: 0.0.1
+Summary: A hello world example package
+Home-page: example.ru
+Author: Andrey Vorobev
+Author-email: andrey.vorobev.aqa@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operationg System :: OS Independent
